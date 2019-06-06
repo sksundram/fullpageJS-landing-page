@@ -1,0 +1,48 @@
+h1 {
+  font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+.s1 {
+  background: url('../images/one.jpg');
+  h1 {
+    text-align: left;
+    margin-left: 0.5em;
+    margin-top: 8em;
+    font-size: 5em;
+  }
+}
+.s2 {
+  background: url('../images/two.jpg');
+  h1 {
+    text-align: right;
+    margin-right: 0.5em;
+    margin-top: -3em;
+    font-size: 5em;
+  }
+}
+.s3 {
+  background: url('../images/three.jpg');
+
+  h1 {
+    text-align: center;
+    margin-top: -4em;
+    font-size: 5em;
+  }
+}
+
+.s1,
+.s2,
+.s3 {
+  background-size: cover;
+}
+
+// Top Section Navigation
+span {
+  background: rgb(114, 12, 155) !important;
+}
+
+// Bottom Slide Navigation
+.fp-slidesNav.fp-bottom {
+  margin-left: 1em !important;
+}
